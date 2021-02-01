@@ -1,0 +1,49 @@
+Overview:
+    You walk around a building looking for an exit
+    Characters may occupy the rooms
+    You can talk or fight the characters in the rooms
+        good characters will join you
+    Points based on:
+        The number of evil characters you kill
+        The number of good characters you help escape
+    Building and characters are randomly generated
+
+
+Classes:
+    Room
+        - Description
+        - Size
+        - Loot/Challenge
+    Map
+        - link room - with direction of new room
+        - start location
+        - exit
+    Character
+        - Friendly/Enemy
+        - Weakness
+        - HP
+        - current location
+    Actions (parent)
+        Moving (child)
+        Talking (child)
+        Fighting (child)
+
+
+Steps:
+    Build the world
+        Build the rooms
+        Link the rooms
+    Populate world with NCPs - enemies and friends
+    Creating a character
+    Moving the character
+
+
+Extra:
+    Characters: 
+        perhaps good-evil, chaotic-lawful spectrum
+                Loot, items, backpacks
+    Maps
+    Tex decorator
+
+
+https://www.futurelearn.com/your-courses
